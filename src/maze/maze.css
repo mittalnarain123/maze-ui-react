@@ -1,0 +1,16 @@
+.maze{
+    border: 1px solid grey;
+    /* height: 200px;
+    width: 200px; */
+    /* margin: 15px; */
+    display: flex;
+    flex-direction: column;
+}
+.maze .row {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+  }
+.maze .row .block{
+    flex: 1;
+}
