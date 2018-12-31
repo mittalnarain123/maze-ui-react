@@ -1,11 +1,10 @@
 .block {
-    /* margin: 1px; */
+    margin: 0.5px;
     height: 10px;
     width: 10px;
-    background-color: black;
-    /* float: left; */
-    flex:1;
+    background-color: rgb(6, 6, 110);
 }
+
 .block.aisle{
-    background-color: lightslategray;
+    background-color: rgb(185, 220, 240);
 }
