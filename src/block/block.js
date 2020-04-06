@@ -3,9 +3,7 @@ import './block.css';
 
 function block(props) {
     return (
-        <div className={`block ${props.aisle ? 'aisle' : ''}`}>
-        
-        </div>
+        <div className={`block ${props.aisle ? 'aisle' : ''}`}></div>
     );
 }
 
